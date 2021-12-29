@@ -7,7 +7,18 @@
     "default_popup": "index.html"
   },
   "background": {
-    "scripts": ["background.js", "runtime.js"]
+    "scripts": [
+      "background.js",
+      "runtime.js"
+    ]
   },
-  "permissions": ["activeTab", "webNavigation"]
+  "permissions": [
+    "activeTab",
+    "webNavigation"
+  ],
+  "icons": {
+    "16": "assets/icon-16x16.png",
+    "32": "assets/icon-32x32.png",
+    "192": "assets/icon-192x192.png"
+  }
 }
